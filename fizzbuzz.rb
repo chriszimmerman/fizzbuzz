@@ -1,5 +1,5 @@
 class FizzBuzz
 	def fizzbuzz number
-		"1"
+		"#{number}"
 	end
 end
