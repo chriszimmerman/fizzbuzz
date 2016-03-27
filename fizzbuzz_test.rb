@@ -16,4 +16,9 @@ class TestFizzbuzz < Minitest::Test
 		assert_equal("Fizz", @sut.fizzbuzz(3))
 		assert_equal("Fizz", @sut.fizzbuzz(6))
 	end
+
+	def test_fizzbuzz_multiple_of_five_returns_Buzz
+		assert_equal("Buzz", @sut.fizzbuzz(5))
+		assert_equal("Buzz", @sut.fizzbuzz(10))
+	end
 end
