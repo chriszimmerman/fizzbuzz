@@ -1,0 +1,6 @@
+Acceptance criteria
+
+Print out numbers from 1 to 100, unless
+if the number is a multiple of three, print out "Fizz"
+if the number is a multiple of five, print out "Buzz"
+if the number is both a multiple of three and a multiple of five, print out "FizzBuzz"
